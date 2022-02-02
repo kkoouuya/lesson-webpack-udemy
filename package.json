@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "launch": "webpack-dev-server --open --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
   "repository": {
@@ -38,6 +39,7 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "uglifyjs-webpack-plugin": "^2.1.1"
   }
 }

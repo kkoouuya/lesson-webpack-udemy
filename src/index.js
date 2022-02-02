@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './style.css';
+import "./style.css";
 
-ReactDOM.render(
-  <div>Hello, React</div>, document.getElementById("root")
-);
+console.log("iam printing log");
+
+ReactDOM.render(<div>Hello, React</div>, document.getElementById("root"));
